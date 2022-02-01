@@ -55,9 +55,7 @@ public class TicTacToeApplication extends Application implements View {
 		gridPane = new GridPane();
 
 		Button restartButton = new Button("Restart Game");
-		restartButton.setOnAction(event -> {
-			resetGame();
-		});
+		restartButton.setOnAction(event -> resetGame());
 
 		resetGame();
 
