@@ -15,7 +15,7 @@ import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.stage.Stage;
 
-public class TickTackToeApplication extends Application implements View {
+public class TicTacToeApplication extends Application implements View {
 
 	private GridPane gridPane;
 	private final Controller controller = new GameController();

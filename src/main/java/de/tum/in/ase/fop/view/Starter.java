@@ -5,6 +5,6 @@ import javafx.application.Application;
 class Starter {
 
     public static void main(String[] args) {
-        Application.launch(TickTackToeApplication.class, args);
+        Application.launch(TicTacToeApplication.class, args);
     }
 }
